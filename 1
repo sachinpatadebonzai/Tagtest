@@ -1,0 +1,9 @@
+const PubSub = require('pubsub-js');
+var url = require('url');
+
+var whitelistedDomains = ["bonzai.co"];
+var checkForwhiteListing = function (msg,requestUrl){
+	urlParams = url.parse(requestUrl,true)
+	console.log(urlParams.host);
+}
+var token = PubSub.subscribe('CHECKFORWHITELISTING', checkForwhiteListing);

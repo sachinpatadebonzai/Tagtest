@@ -1,0 +1,37 @@
+<!--
+Tag generated: 06-06-18 15:00:37
+Campaign: KP_23May
+Ad Name: nwcalls
+Device: Desktop
+Format: IAB Expandable
+Environment: Web
+Network: DFP
+Placement: placement
+-->
+<div class='bonzai-wrap'> 
+<script type='text/javascript'>
+(function() {
+var bonzai_adid = '2664806677441792852';
+var bonzai_sn = 'DFP'; 
+var bonzai_data = '{"network":{"keyId":"DFP","name":"DFP","settings":{"env":"wap","tagType":"iFrame","iFrmBust":"Y","proto":"agnostic","trackerFireOn":"Clickthrough"},"macros":{"addiTr":{"cachbust":"%%CACHEBUSTER%%","segId":""},"clkTr":{"img":["https://d3l4pnpt6axybk.cloudfront.net/1px.gif?adid=adid&event=Click1","%%CLICK_URL_UNESC%%"],"scr":[]},"rendTr":{"img":["https://d3l4pnpt6axybk.cloudfront.net/1px.gif?adid=adid&event=R_impression_tracker1"],"scr":[]},"engmTr":{"tracker01":{"type":"img","url":"https://d3l4pnpt6axybk.cloudfront.net/1px.gif?adid=adid&event=Enagament1"}},"imprTr":{"img":["https://d3l4pnpt6axybk.cloudfront.net/1px.gif?adid=adid&event=S_impression_tracker1","%%VIEW_URL_UNESC%%"],"scr":[]},"clkThru":{"landingUrl":"http://bonzai.ad"}}}}'; 
+var protocol = window.location && window.location.protocol;
+ protocol = (protocol === 'http:' || protocol === 'https:') ? protocol.replace(':', '') : 'https';
+var scripts = document.getElementsByTagName('script'); 
+var cacheBuster = 'CACHEBUSTER'; 
+for(var i = scripts.length-1; i >= 0; i--) { 
+var s = scripts[i]; 
+if(s.innerHTML.indexOf(bonzai_adid) >= 0) { 
+var script = document.createElement('script'); 
+var index = window.bonzaiScriptIndex  = (typeof window.bonzaiScriptIndex == 'undefined') ? 0 : ++window.bonzaiScriptIndex; 
+script.id = 'bonzai_script_' + index;
+if(!window.bonzaiObj || (typeof window.bonzaiObj == 'undefined')) {window.bonzaiObj = {};} 
+window.bonzaiObj[script.id] = bonzai_data;
+script.src = protocol + '://invoke.bonzai.co/mizu/invoke.do?proto=' + protocol + '&adid='+bonzai_adid+'&scriptid=' + script.id +'&sn='+bonzai_sn +'&plid=2660122514949518075'  + '&rnd=' + cacheBuster; 
+s.parentNode.insertBefore(script, s.nextSibling); 
+break; 
+}}})(this); 
+</script> 
+<noscript> 
+<img src='https://invoke.bonzai.co/mizu/invoke.do?adid=2664806677441792852&sn=DFP&type=imp&plid=2660122514949518075' style='display:none;' /> 
+</noscript> 
+</div>
