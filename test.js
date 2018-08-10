@@ -16,7 +16,7 @@ require("./whitelisting");
 var registry = require("./registry");
 var os = require('os-utils');
 var stringSearcher = require('string-search');
-var TextSearch = require('rx-text-search');
+// var TextSearch = require('rx-text-search');
 var file = fs.createWriteStream("file.txt");
 var rawHtml = "https://s3-ap-southeast-1.amazonaws.com/bonzaiqa/Analytics/networkcalls.html";
 var handler;
